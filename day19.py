@@ -23,4 +23,5 @@ rules_list = dict(parse(string) for string in rule_text)
 print(sum(run(message, [0]) for message in messages))
 rule_text += ['8: 42 | 42 8', '11: 42 31 | 42 11 31']
 rules_list = dict(parse(string) for string in rule_text)
+
 print(sum(run(message, [0]) for message in messages))
