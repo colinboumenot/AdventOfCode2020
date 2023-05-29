@@ -1,5 +1,6 @@
 text = open('inputtxt/day18input.txt').read().splitlines()
-
+import time
+start = time.time()
 class Math:
     def __init__(self, value):
         self.value = value
@@ -25,3 +26,4 @@ for line in text:
     line = line.replace('+', '*')
     answer += eval(line, {'Math': Math}).value
 print(answer)
+print(time.time() - start)
