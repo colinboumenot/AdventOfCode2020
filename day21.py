@@ -1,0 +1,1 @@
+text = open('inputtxt/day21input.txt').read()
