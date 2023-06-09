@@ -1,1 +1,3 @@
-text = open('inputtxt/day23input.txt').read()
+text = open('inputtxt/day23input.txt').read().strip().splitlines()
+
+
